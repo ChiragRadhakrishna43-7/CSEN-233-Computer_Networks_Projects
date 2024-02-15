@@ -1,1 +1,3 @@
-Designed and implemented an auction protocol that facilitates an auction process between an auctioneer (server) and multiple interested bidders (clients). The protocol was implemented using HTTP 1.1 and TCP. The auction details were stored using a JSON Object. The logging module was used to record the events taking place at the auctioneer's site.
+Designed and implemented an auction protocol that facilitates an auction process between an auctioneer (server) and multiple interested bidders (clients). 
+The protocol was implemented using HTTP 1.1 and TCP. The auction details were stored using a JSON Object. 
+The logging module was used to record the events taking place at the auctioneer's site.
