@@ -1,0 +1,5 @@
+Implemented assignment 1 (Pg 175) from Computer Networking, 8th ed., ISBN: 9780136681557, by James Kurose.
+
+Designed an HTTP Server to service data per the browser request. Logging module records the events on the server side.
+
+Introduced simulated errors at 50% probability.
