@@ -6,4 +6,4 @@ Computer Network Projects using Python Programming.
 <b>Implementation:</b> Implemented the winning design using HTTP/1.1 response and request objects. Created JSON Objects for message exchange. Utilized multithreading concepts to faciliate multiple bidders to take part in the auction. </p>
 <p align='justify'><b>4. HTTP Server</b><br/>Designed a simple HTTP Server that services any browser request. Introduced random errors at 50% probability. Libraries utilized include socket, logging and random. Logs at the server side keep track of the events occuring at the server end.</p>
 <p align='justify'><b>5. Diffie-Hellman Key Exchange</b><br/>Designed and implemented a protocol to simulate Diffie-Hellman key exchange algorithm.</p>
-![Screenshot 2024-02-20 085600](https://github.com/ChiragRadhakrishna43-7/Computer_Networks_Projects/assets/121251823/0bfeac7b-6791-45bf-aaef-577ef2affa31)
+![Screenshot 2024-02-20 085600]
