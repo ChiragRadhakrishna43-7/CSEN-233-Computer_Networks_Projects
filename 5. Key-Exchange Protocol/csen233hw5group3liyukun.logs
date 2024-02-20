@@ -1,0 +1,34 @@
+2024-02-19 21:44:50,772 - INFO - User has selected a private key a: 20.
+2024-02-19 21:44:50,772 - INFO - User has combined the private key with and p and q.
+2024-02-19 21:44:50,772 - INFO - Sending value 12 for shared secret calculation.
+2024-02-19 21:44:50,772 - INFO - Receiving information (B Value) for shared secret calculation.
+2024-02-19 21:44:52,156 - INFO - Partner's value: 9
+2024-02-19 21:44:52,156 - INFO - User has obtained the information and is calculating the shared secret key.
+2024-02-19 21:44:52,156 - INFO - The shared secret calculated at this side is: 2.
+2024-02-19 21:45:08,437 - INFO - User has selected a private key a: 6.
+2024-02-19 21:45:08,437 - INFO - User has combined the private key with and p and q.
+2024-02-19 21:45:08,437 - INFO - Sending value 8 for shared secret calculation.
+2024-02-19 21:45:08,437 - INFO - Receiving information (B Value) for shared secret calculation.
+2024-02-19 21:45:11,089 - INFO - Partner's value: 4
+2024-02-19 21:45:11,089 - INFO - User has obtained the information and is calculating the shared secret key.
+2024-02-19 21:45:11,089 - INFO - The shared secret calculated at this side is: 2.
+2024-02-19 21:45:15,149 - INFO - Accepting a connection from partner.
+2024-02-19 21:45:15,155 - INFO - Starting to accept connection on 10.0.0.98 port 0
+2024-02-19 21:45:25,221 - INFO - Connected with partner: ('10.0.0.34', 49755).
+2024-02-19 21:45:34,076 - INFO - User has selected a private key a: 17.
+2024-02-19 21:45:34,076 - INFO - User has combined the private key with and p and q.
+2024-02-19 21:45:34,076 - INFO - Sending value 15 for shared secret calculation.
+2024-02-19 21:45:34,076 - INFO - Receiving information (B Value) for shared secret calculation.
+2024-02-19 21:45:34,076 - INFO - Partner's value: 18
+2024-02-19 21:45:34,076 - INFO - User has obtained the information and is calculating the shared secret key.
+2024-02-19 21:45:34,076 - INFO - The shared secret calculated at this side is: 8.
+2024-02-19 21:45:46,780 - INFO - Accepting a connection from partner.
+2024-02-19 21:45:46,785 - INFO - Starting to accept connection on 10.0.0.98 port 0
+2024-02-19 21:45:54,121 - INFO - Connected with partner: ('10.0.0.34', 49757).
+2024-02-19 21:45:59,564 - INFO - User has selected a private key a: 1.
+2024-02-19 21:45:59,564 - INFO - User has combined the private key with and p and q.
+2024-02-19 21:45:59,564 - INFO - Sending value 5 for shared secret calculation.
+2024-02-19 21:45:59,564 - INFO - Receiving information (B Value) for shared secret calculation.
+2024-02-19 21:45:59,564 - INFO - Partner's value: 12
+2024-02-19 21:45:59,564 - INFO - User has obtained the information and is calculating the shared secret key.
+2024-02-19 21:45:59,564 - INFO - The shared secret calculated at this side is: 12.

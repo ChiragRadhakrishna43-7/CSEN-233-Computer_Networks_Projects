@@ -1,0 +1,32 @@
+2024-02-19 21:44:17,313 - INFO - Partner is connecting.
+2024-02-19 21:44:17,319 - INFO - 10.0.0.34 accepting connection on port 49753
+2024-02-19 21:44:48,880 - INFO - Received connection from: ('10.0.0.98', 54150).
+2024-02-19 21:44:51,738 - INFO - User's private key is 10.
+2024-02-19 21:44:51,738 - INFO - Computed and sending value B: 9 to partner for secret key calculation.
+2024-02-19 21:44:51,738 - INFO - Received information for calculating the shared secret key.
+2024-02-19 21:44:51,738 - INFO - Value received- 12.0
+2024-02-19 21:44:51,738 - INFO - Compute shared secret key with partner's information.
+2024-02-19 21:44:51,738 - INFO - Shared secret key determined is: 2.
+2024-02-19 21:44:55,420 - INFO - Partner is connecting.
+2024-02-19 21:44:55,425 - INFO - 10.0.0.34 accepting connection on port 49754
+2024-02-19 21:45:06,070 - INFO - Received connection from: ('10.0.0.98', 54155).
+2024-02-19 21:45:10,666 - INFO - User's private key is 4.
+2024-02-19 21:45:10,666 - INFO - Computed and sending value B: 4 to partner for secret key calculation.
+2024-02-19 21:45:10,666 - INFO - Received information for calculating the shared secret key.
+2024-02-19 21:45:10,666 - INFO - Value received- 8.0
+2024-02-19 21:45:10,667 - INFO - Compute shared secret key with partner's information.
+2024-02-19 21:45:10,667 - INFO - Shared secret key determined is: 2.
+2024-02-19 21:45:24,795 - INFO - Connecting with 10.0.0.98 on port 54157.
+2024-02-19 21:45:31,247 - INFO - User's private key is 12.
+2024-02-19 21:45:31,247 - INFO - Computed and sending value B: 18 to partner for secret key calculation.
+2024-02-19 21:45:33,729 - INFO - Received information for calculating the shared secret key.
+2024-02-19 21:45:33,730 - INFO - Value received- 15.0
+2024-02-19 21:45:33,730 - INFO - Compute shared secret key with partner's information.
+2024-02-19 21:45:33,730 - INFO - Shared secret key determined is: 8.
+2024-02-19 21:45:53,640 - INFO - Connecting with 10.0.0.98 on port 54167.
+2024-02-19 21:45:57,002 - INFO - User's private key is 20.
+2024-02-19 21:45:57,003 - INFO - Computed and sending value B: 12 to partner for secret key calculation.
+2024-02-19 21:45:59,151 - INFO - Received information for calculating the shared secret key.
+2024-02-19 21:45:59,151 - INFO - Value received- 5.0
+2024-02-19 21:45:59,151 - INFO - Compute shared secret key with partner's information.
+2024-02-19 21:45:59,151 - INFO - Shared secret key determined is: 12.
