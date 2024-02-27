@@ -1,0 +1,109 @@
+CSEN 233 Homework 6 
+
+Chirag Radhakrishna (cradhakrishna@scu.edu)
+
+-----------------------------------------------
+
+WIRESHARK DNS LAB ANSWERS:
+
+1. nslookup for vemanait.edu.in, its IP address is 103.143.46.17.
+
+2. nslookup for University College, Dublin. The authoritative DNS servers obtained for ucd.ie are as follows:
+
+	ucd.ie  nameserver = auth-ns1.ucd.ie
+	ucd.ie  nameserver = auth-ns2.ucd.ie
+	ucd.ie  nameserver = sec-ns.tcd.ie
+	ucd.ie  nameserver = uucp-gw-1.pa.dec.com
+	ucd.ie  nameserver = uucp-gw-2.pa.dec.com
+	ucd.ie  nameserver = scsnms.switch.ch
+
+3. IP address obtained is 54.73.243.134 .
+
+4. On locating the DNS query and response messages, it is determined that they are sent over UDP.
+
+5. Destination port for the DNS Query Message is 53. The source port of the DNS response message is 53.
+
+6. The DNS query message is sent to IP address 192.168.0.1. Using ipconfig, the IP address of the local DNS server is also 192.168.0.1 Hence, both addresses are the same.
+
+7. The DNS query is of type A. It does not contain any answers, [Answer RRs = 0].
+
+8. 2 answers were provided, [Answer RRs = 2]. Each of these answers had the host name, the address type, class, the time to live (TTL), data length and address.
+
+		www.ietf.org: type A, class IN, addr 104.16.44.99
+			Name: www.ietf.org
+			Type: A (1) (Host Address)
+			Class: IN (0x0001)
+			Time to live: 300 (5 minutes)
+			Data length: 4
+			Address: 104.16.44.99
+
+		www.ietf.org: type A, class IN, addr 104.16.45.99
+			Name: www.ietf.org
+			Type: A (1) (Host Address)
+			Class: IN (0x0001)
+			Time to live: 300 (5 minutes)
+			Data length: 4
+			Address: 104.16.45.99
+
+ 9. First SYN packet was addressed to 104.16.44.99. 104.16.44.99 is the first address contained in the DNS response message.
+
+10. New DNS queries are not issued.
+
+11. Destination port of the DNS query message is 53. Source Port of DNS response is also 53.
+
+12. Sent to 2601:646:a100:4090:2694:cbff:fea7:16c0. It is the IP address of the default local DNS server.
+
+13. Type A. Does not contain answer records, [Answer RRs = 0].
+
+14. 3 answer provided, [Answer RRs = 3]. It contains the following:
+
+		www.mit.edu: type CNAME, class IN, cname www.mit.edu.edgekey.net
+		    Name: www.mit.edu
+		    Type: CNAME (5) (Canonical NAME for an alias)
+                    Class: IN (0x0001)
+		    Time to live: 1745 (29 minutes, 5 seconds)
+                    Data length: 25
+                    CNAME: www.mit.edu.edgekey.net
+
+		www.mit.edu.edgekey.net: type CNAME, class IN, cname e9566.dscb.akamaiedge.net
+                    Name: www.mit.edu.edgekey.net
+	            Type: CNAME (5) (Canonical NAME for an alias)
+                    Class: IN (0x0001)
+                    Time to live: 5 (5 seconds)
+                    Data length: 24
+                    CNAME: e9566.dscb.akamaiedge.net
+
+                e9566.dscb.akamaiedge.net: type A, class IN, addr 23.56.123.79
+                    Name: e9566.dscb.akamaiedge.net
+		    Type: A (1) (Host Address)
+                    Class: IN (0x0001)
+                    Time to live: 20 (20 seconds)
+                    Data length: 4
+                    Address: 23.56.123.79
+
+
+15 (screenshot question). 
+
+16. Sent to 2601:646:a100:4090:2694:cbff:fea7:16c0. It is the IP address of the default local DNS server.
+
+17. The DNS query is of type NS. Query message has no answers, [Answer RRs = 0].
+
+18. The MIT nameserver provided by the response message is hsd1.ca.comcast.net. The IP address is provided under additional records.
+
+19 (screenshot question).
+
+20. Query is sent to 18.0.72.3, corresponds to bitsy.mit.edu.
+
+21. Type A and no answer records, [Answer RRs = 0].
+
+22. 1 answer provided, [Answer RRs = 1]. The answer contains-
+
+		bitsy.mit.edu: type A, class IN, addr 18.0.72.3
+		Name: bitsy.mit.edu
+		Type: A (1) (Host Address)
+		Class: IN (0x0001)
+		Time to live: 1354 (22 miuntes, 34 seconds)
+		Data length: 4
+		Address: 18.0.72.3
+
+23. (screenshot question).
