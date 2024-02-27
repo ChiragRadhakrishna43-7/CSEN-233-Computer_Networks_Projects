@@ -9,3 +9,4 @@ Computer Network Projects using Python Programming.
 
 
 ![Screenshot 2024-02-20 085600](https://github.com/ChiragRadhakrishna43-7/Computer_Networks_Projects/assets/121251823/46c282b5-7ea6-446d-aefa-7bb7895b521d)
+<p align='justify'><b>6. Wireshark DNS Lab v8.0</b><br/> Carried out Wireshark packet capture to understand request-response messages. Analyzed response headers, answer records, additional records and authoritative servers involved. Extensively made use of nslookup command.</p>
