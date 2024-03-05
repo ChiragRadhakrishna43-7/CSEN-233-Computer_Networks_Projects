@@ -10,3 +10,4 @@ Computer Network Projects using Python Programming.
 
 ![Screenshot 2024-02-20 085600](https://github.com/ChiragRadhakrishna43-7/Computer_Networks_Projects/assets/121251823/46c282b5-7ea6-446d-aefa-7bb7895b521d)
 <p align='justify'><b>6. Wireshark DNS Lab v8.0</b><br/> Carried out Wireshark packet capture to understand request-response messages. Analyzed response headers, answer records, additional records and authoritative servers involved. Extensively made use of nslookup command.</p>
+<p align='justify'><b>7. Distance between Routers</b><br/> Implemented Dijkstra Algorithm to compute the path between two routers over a given network. To run the implementation, the topology file and the router names are provided. The <b>relnit function in netemulate.py</b> loads the topology file. The topology file comprises of the list of routers with its links with various other routers and the associated cost. After loading the file, relnit will build the network accordingly.</p>
